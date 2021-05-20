@@ -16,7 +16,7 @@ def bit_to_int(inp, w):
         d += pow(2, i) * inp[i + 3 * w]
     return (a, b, c, d)
 
-# Find Differential Trail for CHAM
+# Find Differential Trail for CHAM 
 def solve_dc_cham(n, Nr, prob_val, start, multiple=0):
     cham = CHAM(n=n, k=128)
     model_name = 'model_file\\dc\\cham' + str(n) + \
