@@ -375,4 +375,4 @@ class LEA:
             f.write(c)
             f.write("\n")
         f.close()
-        return clause, self.cnt, self.prob_cnt
+        return clause, self.cnt, self.prob_cnt 
