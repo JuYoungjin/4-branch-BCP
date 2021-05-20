@@ -452,6 +452,3 @@ def lea_last_round_diff(r2, r2_idx, r2_prob, r2_max_prob):
 
 
 
-
-
-
