@@ -372,3 +372,4 @@ class CHAM:
             f.write("\n")
         f.close()
         return clause, self.cnt, self.prob_cnt
+ 
